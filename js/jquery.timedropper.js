@@ -1,3 +1,14 @@
+/*
+ * jQuery TimeDropper V1.0
+ * https://github.com/nubz/jquery-timedropper
+ * 
+ * requires jQuery 1.7+
+ *
+ * Copyright 2012, Alistair Macdonald
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://www.opensource.org/licenses/mit-license.php
+ * http://www.opensource.org/licenses/GPL-2.0
+*/
 (function($){
     
     $.fn.timedropper = function(method){
