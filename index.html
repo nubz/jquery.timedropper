@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>jquery timedropper demo</title>
+</head>
+<body>
+    <div style="padding:40px;">
+    
+      <h2>A demo of the timedropper plugin</h2>
+      <p>Click into the input below to get a drop down selection of times of the day, these are set at 30 minute intervals but you may override this with any valid increment (between 1 and 60)</p>
+      <input type="text" name="time" id="time" />
+    </div>
+        <script type='text/javascript' src='http://code.jquery.com/jquery-1.7.1.js'></script>
+        <script type='text/javascript' src='js/jquery.timedropper.js'></script>
+        <script>
+			$('#time').timedropper();
+        </script>
+</body>
+
+
+</html>
